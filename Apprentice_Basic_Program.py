@@ -46,7 +46,6 @@ def calculator():
 		
 	else:
 		print "Error.. Exiting Calculator\n"
-	
 	return
 	
 #print stored string
@@ -64,8 +63,7 @@ def larger_num():
 		print "{} is greater than {}" .format(num1, num2)
 
 	else:
-		print "{} is greater than {}" .format(num2, num1)
-		
+		print "{} is greater than {}" .format(num2, num1)	
 	return
 	
 	
@@ -103,7 +101,6 @@ def main():
 		opt_list[opt_choice]()
 
 		print "\n"
-		
 	return
 	
 #call the main function
